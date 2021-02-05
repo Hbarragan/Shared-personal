@@ -38,8 +38,8 @@ spring.application.name=servicios-productos
 server.port=8001
 
 ## REPOSITORY
-Creamos el package *.dao para crear las interfaces
-Creamos la clase interficie " new interface " y le ponemos el nombre de "ProductoDao"
+Creamos el package *.model para crear el repositorio
+Creamos la clase interficie " new interface " y le ponemos el nombre de "ProductRepository"
 Y añadimos; 
 	extends CrudRepository<Producto, Long> de esta forma heredara las consultas basicas "finById, findAll..."
 
